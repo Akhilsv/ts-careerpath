@@ -9,6 +9,17 @@ body {
 	width: 100%;
 	min-height: 100vh;
 }
+.max_width_section {
+	margin: 0 auto;
+	max-width: 1400px;
+	width: 100%;
+	display: grid;
+	place-items: center;
+}
+.banner_color {
+	background-color: #7a3bff;
+	max-width: 100%;
+}
 .hero_section {
 	width: 100%;
 	height: 100vh;
@@ -114,6 +125,7 @@ body {
 	}
 }
 .banner_section {
+	max-width: 1400px;
 	width: 100%;
 	background: rgba(122, 59, 255, 1);
 	height: fit-content;
